@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter,sans-serif;
+    transition: all 1s ease-in-out;
+    
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+.bitmama-intro-body{
+    height: 100%;
+    width: 100%;
+    /* background: blue; */
+    /* position: relative; */
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column; */
+}
+.navigation-bitmama{
+    height: 5.5rem;
+    width: 100%;
+    background: #f7f7fc;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    position: fixed; 
+     z-index: 2;
+}
+.navigation-left-bitmama{
+    height: 5.5rem;
+    width: 5rem;
+    /* background-color: black; */
+}
+div{
+    display: block;
+}
+.Navigation_logo__80WVe{
+    height: 5.5rem;
+    width: 5rem;
+    cursor: pointer;
+}
+.navigation-middle-bitmama{
+    height: 5.5rem;
+    width: 40rem;
+    /* background: black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+
+}
+/* .P2P a{
+    cursor: pointer;
+} */
+
+.navigation-right-bitmama{
+    height: 5.5rem;
+    width: 20rem;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navigation-right-bitmama button{
+    height: 3.5rem;
+    width: 11.5rem;
+    background: #03a438;
+    border-radius: 40px;
+    border: 0;
+    color: #fff;
+    font-size: 16px;
+}
+.navigation-right-bitmama button:hover{
+    cursor: pointer;
+    background: #026523;
+}
