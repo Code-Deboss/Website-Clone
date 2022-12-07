@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Inter,sans-serif;
-    transition: all 1s ease-in-out;
+    /* transition: all 1s ease-in-out; */
     
 }
 a{
@@ -11,18 +11,27 @@ a{
     color: inherit;
     cursor: pointer;
 }
+h2{
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
 .bitmama-intro-body{
-    height: 100%;
+    /* height: 100%; */
     width: 100%;
     /* background: blue; */
     /* position: relative; */
-    /* display: flex;
+    display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-direction: column; */
+    flex-direction: column;
 }
 .navigation-bitmama{
-    height: 5.5rem;
+   height: fit-content;
     width: 100%;
     background: #f7f7fc;
     display: flex;
@@ -33,7 +42,6 @@ a{
      z-index: 2;
 }
 .navigation-left-bitmama{
-    height: 5.5rem;
     width: 5rem;
     /* background-color: black; */
 }
@@ -46,7 +54,6 @@ div{
     cursor: pointer;
 }
 .navigation-middle-bitmama{
-    height: 5.5rem;
     width: 40rem;
     /* background: black; */
     display: flex;
@@ -60,7 +67,6 @@ div{
 } */
 
 .navigation-right-bitmama{
-    height: 5.5rem;
     width: 20rem;
     /* background-color: black; */
     display: flex;
@@ -79,4 +85,96 @@ div{
 .navigation-right-bitmama button:hover{
     cursor: pointer;
     background: #026523;
+}
+.country-hero{
+    height: 55rem;
+    background: #14142b;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 5rem;
+
+}
+.country-sub{
+    width: 95%;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.country-hero-left{
+    width: 55%;
+    display: flex;
+    align-items: center;
+    /* background-color: aqua; */
+}
+.country-hero-left h1{
+    font-size: 3.4em;
+    width: 80%;
+    color: #fff;
+}
+.country-hero-right{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: palegoldenrod; */
+}
+.planet-svg{
+    width: 49rem;
+}
+.buysell-content{
+    width: 100%;
+    height: fit-content;
+    /* background-color: #026523; */
+    padding: 7em 5em 3em;
+}
+.buysell-title{
+    width: 100%;
+    height: max-content;
+    text-align: center;
+    font-size: 2em;
+    margin: 1em auto;
+    line-height: 55px;
+    color: #4e4b66;
+    /* background-color: antiquewhite; */
+}
+.buysell-description{
+    margin: 5em auto;
+    width: 90%;
+}
+.buysell-description p{
+    line-height: 34px;
+    letter-spacing: -.5px;
+    font-weight: 300;
+    margin: 1.5em auto;
+}
+.buysell-txt{
+    text-align: center;
+}
+.buysell-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buynow-btn{
+    margin-top: 4em;
+    background: #03a438;
+    border-radius: 40px;
+    border: 0;
+    color: #fff;
+    width: 200px;
+    height: 65px;
+    font-size: 16px;
+}
+.buysell-trust{
+    margin: 4em auto 2em;
+    width: 70%;
+    text-align: center;
+    font-size: 2em;
+    line-height: 50px;
+    color: #4e4b66;
 }
